@@ -1,0 +1,29 @@
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+*.apk
+*.csproj
+*.sln
+*.suo
+*.userprefs
+*.DotSettings
+*.unityproj
+*.DS_Store
+*.dat
+
+/Assets/Graphics/UI/Mockups/
+/Assets/Graphics/UI/Mockups.meta
+/Recordings/
+/Assets/Audio/Music/Encounter/6. Human Strength.mp3.sfk.meta
+/Assets/Audio/Music/Encounter/6. Human Strength.mp3.sfk
+
+# Visual Studio cache directory
+/.vs/

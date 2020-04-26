@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0678399e7a976d4990f7a54a7e2fd9e, type: 3}
+  m_Name: ShipA
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 6387619066525714, guid: d5c251199dbf9e64eafe170f4b3736c1, type: 3}
+  Data:
+    Name: Stiker
+    Health: 100
+    Shield:
+      Value: 80
+      RechargeRate: 1
+    Guns:
+    - {fileID: 11400000, guid: 3aeba0ecb1385bc48823e1c949b6df15, type: 2}
+    - {fileID: 11400000, guid: 07a38df9c434a1748ad60f804e583e6c, type: 2}
+    Modules:
+    - {fileID: 11400000, guid: 4ec97f766b28b284ab04062006d5cc52, type: 2}
+    - {fileID: 11400000, guid: e07230e8fba4a9f43a378fd240917b77, type: 2}

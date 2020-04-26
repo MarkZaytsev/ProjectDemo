@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59cfb6467c5e3e24895b5a9202f01a38, type: 3}
+  m_Name: StationL
+  m_EditorClassIdentifier: 
+  Id: 10
+  Name: L
+  Position: {x: -1, y: -2}
+  Connections:
+  - {fileID: 11400000, guid: b6df3ce3b9c6c344294d2711ae269dc6, type: 2}
+  - {fileID: 11400000, guid: d2b24cb4d91848d43b2a500b6d37b21d, type: 2}
+  - {fileID: 11400000, guid: 904a3464746ba0144bba584b438fceff, type: 2}
+  - {fileID: 11400000, guid: 23b21b71a6311b64daf2aa583868249f, type: 2}

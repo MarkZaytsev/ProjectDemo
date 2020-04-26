@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0678399e7a976d4990f7a54a7e2fd9e, type: 3}
+  m_Name: ShipB
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 6387619066525714, guid: 16ea586e4bc2c454fba28c1b1e403121, type: 3}
+  Data:
+    Name: Bomber
+    Health: 60
+    Shield:
+      Value: 120
+      RechargeRate: 1
+    Guns:
+    - {fileID: 11400000, guid: 2ba1f8d3b07032b44952849d8c0d4035, type: 2}
+    - {fileID: 11400000, guid: 07a38df9c434a1748ad60f804e583e6c, type: 2}
+    Modules:
+    - {fileID: 11400000, guid: ba464a6cf7b3b844ba48a8792d5eca88, type: 2}
+    - {fileID: 11400000, guid: ba464a6cf7b3b844ba48a8792d5eca88, type: 2}
+    - {fileID: 11400000, guid: 88d9494e56765614da4aecb1606b5d42, type: 2}
